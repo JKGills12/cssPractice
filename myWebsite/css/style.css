@@ -61,3 +61,23 @@ body{
     line-height: 1.6em;
     padding-top: 30px;
 }
+
+#main{
+    float: left;
+    width: 70%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+/* This will float the id="main" to the left of the browser */ 
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background: #333;
+    color:#fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* This will float the #sidebar to the right with a dark grey background */
