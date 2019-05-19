@@ -17,5 +17,29 @@ body{
 #main-header{
     background-color: coral;
     color: #fff;
-    
+
 }
+
+#navbar{
+    background-color: #333;
+    color:#fff;
+}
+
+#navbar ul{
+    padding:0;
+    list-style: none;
+}
+/* This code will take away the list buttons and padding */
+
+#navbar li{
+    display: inline;
+}
+/* This code will have the nav inline rather than stacked */
+
+#navbar a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+/* This code will change the navbar links to have a white text color, change the font size and spacing inbetween links to 15px */
