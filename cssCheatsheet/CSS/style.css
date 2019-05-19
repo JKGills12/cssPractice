@@ -134,3 +134,30 @@ a:visited{
     padding: 8px;
     width:100%;
 }
+
+
+.block{
+    /*linese up the block headings horizontally next to one another, rather than by default vertically one over the other*/
+    float: left;
+    width:33.3%;
+    border: 1px solid #ccc;
+    padding:10px;
+    box-sizing: border-box;
+    /*box-sizing will make sure content stays in line even with all the padding, border and width attributes*/
+}
+
+#main-block{
+    float: left;
+    width: 70%;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background-color:#333;
+    color:#fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+/*#side-bar will push the paragragh to the right*/
+/*the box will also be greyed out with the color background*/
