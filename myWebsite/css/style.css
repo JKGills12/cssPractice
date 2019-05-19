@@ -47,8 +47,17 @@ body{
 #showcase{
     background-image:url(../images/showcase.jpg);
     background-position: center right;
-    height:300px;
+    min-height:300px;
     margin-bottom:30px;
     text-align:center; 
+}
+/* This adds a background imaged saved in the myWebsite Image folder to the showcase */
 
+/* changing height to min-height will keep all the text within the showcase - growing the showcase with the text as the browser is adjusted. */
+
+#showcase h1{
+    color:#fff;
+    font-size:50px;
+    line-height: 1.6em;
+    padding-top: 30px;
 }
