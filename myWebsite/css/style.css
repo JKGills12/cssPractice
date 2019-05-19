@@ -81,3 +81,27 @@ body{
 }
 
 /* This will float the #sidebar to the right with a dark grey background */
+
+#main-footer{
+    background:#333;
+    color:#fff;
+    text-align: center;
+    padding: 20px;
+    margin-top:40px;
+}
+
+/* This code created a footer with a dark grey background and text-aligned center. */
+
+@media(max-width:600px){
+    #main{
+        width:100%;
+        float: none;
+    }
+
+    #sidebar{
+        width:100%;
+        float: none;
+    }
+}
+
+/* This code makes sure any style we put in here are only going to be in effect if it's under 600px. It will keep the #main and #sidebar from floating */
