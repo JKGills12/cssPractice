@@ -43,3 +43,12 @@ body{
     padding-right: 15px;
 }
 /* This code will change the navbar links to have a white text color, change the font size and spacing inbetween links to 15px */
+
+#showcase{
+    background-image:url(../images/showcase.jpg);
+    background-position: center right;
+    height:300px;
+    margin-bottom:30px;
+    text-align:center; 
+
+}
