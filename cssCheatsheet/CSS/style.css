@@ -17,10 +17,46 @@ body{
     margin: 0;
 }
 
+a{
+    text-decoration: none;
+    color:#000;
+}
+
+a:hover{
+    color:red;
+}
+
+a:active{
+    color: green;
+}
+
+a:visited{
+
+}
+
 .container{
     width: 80%;
     margin: auto;
 }
+
+/*button moved up under .container because it is global*/
+.button{
+    background-color: #333;
+    color:#fff;
+    padding:10px 15px;
+    border:none;
+}
+
+.button:hover{
+    background:red;
+    color: #ffffff;
+}
+
+.clr{
+    clear: both;
+}
+
+/*anything global should be moved closed to the top of styling sheet - ie button and clr*/
 
 .box-1{
     background-color: #333;
@@ -70,5 +106,31 @@ body{
 
 .categories ul{
     padding: 0;
+    padding-left: 20px;
     list-style: square;
+}
+
+.categories li{
+    padding:3px;
+    border-bottom: dotted 1px #333;
+    list-style-image: url('../../Images/check.png');
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    /**[type="text"] will resize the Subtmit button to not take up the full screen*/
+    /*,.my-form textarea will have the my-form (message field) cover the width of the screen*/
+    padding: 8px;
+    width:100%;
 }
